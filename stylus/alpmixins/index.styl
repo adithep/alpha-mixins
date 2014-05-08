@@ -1,11 +1,3 @@
-@font-face
-  font-family 'liga'
-  src url('localhost:3000/websymbolsligaregular.eot')
-  src url('localhost:3000/websymbolsligaregular.eot?#iefix') format('embeded-opentype')
-    , url('localhost:3000/websymbolsligaregular.woff') format('woff')
-    , url('localhost:3000/websymbolsligaregular.ttf') format('truetype')
-    , url('localhost:3000/websymbolsligaregular.svg#web_symbols_ligaregular') format('svg')
-
 $red = #FA5C4F
 $brown = #363636
 $blue = #328C99
@@ -15,6 +7,15 @@ $black = #000000
 
 $text-black = #363636
 $text-white = #ffffff
+
+font-liga()  
+  @font-face
+    font-family 'liga'
+    src url('localhost:3000/websymbolsligaregular.eot')
+    src url('localhost:3000/websymbolsligaregular.eot?#iefix') format('embeded-opentype')
+      , url('localhost:3000/websymbolsligaregular.woff') format('woff')
+      , url('localhost:3000/websymbolsligaregular.ttf') format('truetype')
+      , url('localhost:3000/websymbolsligaregular.svg#web_symbols_ligaregular') format('svg')
 
 transition(val)
   -webkit-transition: val
