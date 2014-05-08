@@ -1,5 +1,9 @@
 {
   "name": "alpha-mixins",
+  "author": {
+    "name": "Adithep",
+    "email": "badsxx@gmail.com"
+  },
   "version": "0.0.1",
   "description": "mixins",
   "main": "alpha-mixins.js",
