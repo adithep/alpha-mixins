@@ -10,6 +10,7 @@
     "alpha"
   ],
   "author": "Adithep",
+  "github": "https://github.com/adithep/alpha-mixins",
   "license": "ISC",
   "dependencies": {
     "stylus": "^0.42.3"
